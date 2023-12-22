@@ -160,7 +160,7 @@ p {
 }
 
 .hero-btn-manual {
-    font: 'Montserrat';
+    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 14px;
     line-height: 17.09px;
@@ -191,7 +191,7 @@ p {
 }
 
 .hero-btn-buy {
-    font: 'Montserrat';
+    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 14px;
     line-height: 17.09px;
@@ -249,3 +249,59 @@ p {
 
 }
 
+.advantages-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.advantages-img-box {
+    position: relative;
+    background-image: url(../images/advantages_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.definition {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 196px;
+    height: 66px;
+    border-radius: 15.2px;
+    background-color: #F9F9F9;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.definition-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 8.74px;
+    line-height: 10.58px;
+    color: #000;
+}
+
+.definition-text-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 8.74px;
+    line-height: 10.58px;
+    color: #000;
+}
+
+.definition-text-index {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 4px;
+    color: #000;
+}
