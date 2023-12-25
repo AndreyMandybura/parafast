@@ -812,3 +812,118 @@ p {
             display: none;
         }
 }
+
+.simptoms-section {
+    position: relative;
+    padding-top: 40px;
+    height: 1223px;
+
+    @media screen and (min-width: 768px) {
+            height: 1350px;
+        }
+
+    @media screen and (min-width: 1024px) {
+            padding-top: 90px;
+            height: 820px;
+        }
+}
+
+.simptoms-section-title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #625F61;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 275px;
+
+    @media screen and (min-width: 1024px) {
+            font-size: 40px;
+            line-height: 43px;
+            width: 690px;
+            margin-bottom: 90px;
+        }
+
+    @media screen and (min-width: 1440px) {
+            font-size: 46px;
+            line-height: 46px;
+            width: 790px;
+        }
+}
+
+.simptoms-list {
+    @media screen and (min-width: 1024px) {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+    @media screen and (min-width: 1440px) {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+}
+
+.simptoms-tumb {
+    margin-bottom: 30px;
+}
+
+.simptoms-item-img-box {
+    width: 151px;
+    height: 151px;
+    border-radius: 31.59px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+    @media screen and (min-width: 1440px) {
+            width: 220px;
+            height: 220px;
+        }
+}
+
+.simptoms-item-text-box {
+    width: 170px;
+    height: 60px;
+    border-radius: 15.11px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-shadow: 0px 2.74px 5.49px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (min-width: 1440px) {
+            width: 274px;
+            height: 78px;
+        }
+}
+
+.simptoms-item-text {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+
+    @media screen and (min-width: 1440px) {
+            font-size: 22px;
+            line-height: 22px;
+        }
+}
+
+.simptoms-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
