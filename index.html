@@ -18,8 +18,15 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header>
-
+    <header class="header container">
+            <img src="./images/logo.png" alt="" class="header-logo">
+        <button type="button" class="page-header-btn" is-open aria-expanded="false" aria-controls="menu-container"
+            data-menu-button>
+            <svg width="21px" height="17px">
+                <use class="header-menu" href="./images/svg/header_menu.svg#2"></use>
+                <use class="header-close-menu" href="./images/svg/header_close_menu.svg#3"></use>
+            </svg>
+        </button>
     </header>
     <main>
         <section class="hero-section container">
@@ -208,6 +215,6 @@
             </div>
         </footer>
     </main>
-    
+    <script src="./mobile-menu.js"></script>
 </body>
 </html>
