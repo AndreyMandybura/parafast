@@ -18,15 +18,29 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header class="header container">
-            <img src="./images/logo.png" alt="" class="header-logo">
-        <button type="button" class="page-header-btn" is-open aria-expanded="false" aria-controls="menu-container"
-            data-menu-button>
-            <svg width="21px" height="17px">
-                <use class="header-menu" href="./images/svg/header_menu.svg#2"></use>
-                <use class="header-close-menu" href="./images/svg/header_close_menu.svg#3"></use>
-            </svg>
-        </button>
+    <header>
+        <div class="header container">
+            <div class="header-box">
+                <a href="./index.html" class="header-logo-link"><img src="./images/logo.png" alt="" class="header-logo"></a>
+                <button type="button" class="page-header-btn" is-open aria-expanded="false" aria-controls="menu-container"
+                    data-menu-button>
+                    <svg width="21px" height="17px">
+                        <use class="header-menu" href="./images/svg/header_menu.svg#2"></use>
+                        <use class="header-close-menu" href="./images/svg/header_close_menu.svg#3"></use>
+                    </svg>
+                </button>
+                <div class="menu-container" is-open id="menu-container" data-menu>
+                    <ul class="menu-list list">
+                        <li class="menu-list-item"><a href="#for_whom" class="menu-list-link txt-deco">Для кого</a></li>
+                        <li class="menu-list-item"><a href="#readings" class="menu-list-link txt-deco">Показання</a></li>
+                        <li class="menu-list-item"><a href="./manual.html" class="menu-list-link txt-deco">Інструкція</a></li>
+                        <li class="menu-list-item"><a href="#where" class="menu-list-link txt-deco">Де придбати</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+           
     </header>
     <main>
         <section class="hero-section container">
@@ -71,7 +85,7 @@
             <p class="advantages-section-second-footnote"><sup class="advantages-section-footnote-index">2</sup>3Larry L . Augsburg er. H ard- and So ft-Shell C ap sules // ModernPharmaceutics : Volume 1. Basic Principles and
             Systems : [англ.] . — N . Y.: Informa Healthcar e., 20 06 . — P. 499 — 564. — (D rugs and the Pharmaceutical Sciences)</p>
         </section>
-        <section class="innovations-section container">
+        <section class="innovations-section container" id="for_whom">
             <h1 class="innovations-section-title">Цікавитесь новаціями у фармацевтичній галузі?</h1>
             <div class="innovations-tumb">
                 <div class="innovations-text-box">
@@ -87,7 +101,7 @@
             </div>
             <img src="./images/innovations_girl.png" alt="" class="innovations-girl-img">
         </section>
-        <section class="simptoms-section container">
+        <section class="simptoms-section container" id="readings">
             <h1 class="simptoms-section-title">Коли стане в нагоді Парафаст у м’яких желатинових капсулах</h1>
             <div class="simptoms-list">
                 <div class="simptoms-tumb">
@@ -154,7 +168,7 @@
             </div>
             <img src="./images/advantages_img.png" alt="">
         </section>
-        <section class="container">
+        <section class="container" id="where">
             <div class="section-buy-box">
                 <p class="buy-title" id="where">Придбати Парафаст можна тут</p>
                     <div class="buy-photo">
