@@ -115,6 +115,7 @@ p {
     margin-right: 25px;
     padding: 0;
     border: 0;
+    background-color: #FFFFFF;
 
     @media screen and (min-width: 1024px) {
         display: none;
@@ -306,6 +307,19 @@ p {
         }
 }
 
+.hero-btn-manual-link {
+    margin-right: 12px;
+    margin-left: auto;
+    margin-bottom: 10px;
+
+    @media screen and (min-width: 768px) {
+            margin-right: 0;
+            margin-left: 0;
+            margin-bottom: 0;
+        }
+
+}
+
 .hero-btn-manual {
     font-family: 'Montserrat';
     font-weight: 700;
@@ -317,23 +331,25 @@ p {
     border: 0.45px solid #D22827;
     background-color: #fff;
     border-radius: 21.24px;
-    margin-right: 12px;
-    margin-left: auto;
-    margin-bottom: 10px;
-
-    @media screen and (min-width: 768px) {
-            margin-right: 0;
-            margin-left: 0;
-            margin-bottom: 0;
-        }
 
     @media screen and (min-width: 1440px) {
-        margin-right: 0;
-        margin-left: 0;
-        margin-bottom: 0;
         width: 191px;
         height: 66px;
         font-size: 22px;
+    }
+}
+
+.hero-btn-buy-link {
+    margin-right: 12px;
+    margin-left: auto;
+
+    @media screen and (min-width: 768px) {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        margin-left: 30px;
     }
 }
 
@@ -348,19 +364,12 @@ p {
     border: none;
     background-color: #D22827;
     border-radius: 21.24px;
-    margin-right: 12px;
-    margin-left: auto;
-
-    @media screen and (min-width: 768px) {
-            margin-right: 0;
-            margin-left: 10px;
-        }
+    
 
     @media screen and (min-width: 1440px) {
             width: 191px;
             height: 66px;
             font-size: 22px;
-            margin-left: 30px;
         }
 }
 
