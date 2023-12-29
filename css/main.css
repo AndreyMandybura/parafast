@@ -1322,6 +1322,7 @@ p {
     @media screen and (min-width: 1024px) {
             margin-bottom: 0px;
             margin-left: 70px;
+            height: 70px;
         }
 
     @media screen and (min-width: 1440px) {
@@ -1348,6 +1349,7 @@ p {
 
     @media screen and (min-width: 1024px) {
             margin-left: 70px;
+            height: 70px;
         }
 
     @media screen and (min-width: 1440px) {
@@ -1397,6 +1399,7 @@ p {
     @media screen and (min-width: 1024px) {
             margin-bottom: 0px;
             margin-right: 70px;
+            height: 70px;
         }
 
     @media screen and (min-width: 1440px) {
@@ -1423,6 +1426,7 @@ p {
 
     @media screen and (min-width: 1024px) {
             margin-right: 70px;
+            height: 70px;
         }
 
     @media screen and (min-width: 1440px) {

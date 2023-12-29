@@ -24,7 +24,30 @@
     <title>Парафаст</title>
 </head>
 <body>
-    <section class="container container-lt menu-position">
+    <header>
+        <div class="header container">
+            <div class="header-box">
+                <a href="./index.html" class="header-logo-link"><img src="./images/logo.png" alt="" class="header-logo"></a>
+                <button type="button" class="page-header-btn" is-open aria-expanded="false" aria-controls="menu-container"
+                    data-menu-button>
+                    <svg width="21px" height="17px">
+                        <use class="header-menu" href="./images/svg/header_menu.svg#2"></use>
+                        <use class="header-close-menu" href="./images/svg/header_close_menu.svg#3"></use>
+                    </svg>
+                </button>
+                <div class="menu-container" is-open id="menu-container" data-menu>
+                    <ul class="menu-list list">
+                        <li class="menu-list-item"><a href="./index.html#for_whom" class="menu-list-link txt-deco">Для кого</a></li>
+                        <li class="menu-list-item"><a href="./index.html#readings" class="menu-list-link txt-deco">Показання</a></li>
+                        <li class="menu-list-item"><a href="./manual.html" class="menu-list-link txt-deco">Інструкція</a>
+                        </li>
+                        <li class="menu-list-item"><a href="./index.html#where" class="menu-list-link txt-deco">Де придбати</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container container-lt main-section">
         <div class="main-title-box">
             <img src="./images/manual_main_photo.png" alt="" class="main-photo">
             <div class="main-title-tumb">
@@ -257,5 +280,6 @@
             <p class="footer-text">Сreated by Level Media</p>
         </div>
     </footer>
+    <script src="./mobile-menu.js"></script>
 </body>
 </html>
