@@ -458,12 +458,13 @@ p {
             height: 100px;
             top: 35%;
             right: 10%;
+            padding: 18px;
         }
 
     @media screen and (min-width: 1024px) {
             width: 600px;
             height: 150px;
-            padding: 23px;
+            padding: 35px;
             border-radius: 53.21px;
         }
 
@@ -480,8 +481,8 @@ p {
 .definition-text {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 8.74px;
-    line-height: 10.58px;
+    font-size: 11px;
+    line-height: 12px;
     color: #000;
 
     @media screen and (min-width: 768px) {
@@ -503,8 +504,8 @@ p {
 .definition-text-title {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 8.74px;
-    line-height: 10.58px;
+    font-size: 11px;
+    line-height: 12px;
     color: #000;
 
     @media screen and (min-width: 768px) {
@@ -602,8 +603,8 @@ p {
 .advantages-section-item-text {
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 14px;
-    line-height: 12.12px;
+    font-size: 18px;
+    line-height: 18px;
     color: #000000;
 
     @media screen and (min-width: 768px) {
@@ -686,13 +687,13 @@ p {
 .innovations-section-title {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 22px;
     color: #625F61;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    width: 240px;
+    width: 300px;
 
     @media screen and (min-width: 1024px) {
             font-size: 40px;
@@ -729,13 +730,7 @@ p {
 
     @media screen and (min-width: 1024px) {
             width: 550px;
-            height: 240px;
-            padding: 30px;
-        }
-
-    @media screen and (min-width: 1024px) {
-            width: 550px;
-            height: 240px;
+            height: 270px;
             padding: 30px;
         }
 
@@ -749,7 +744,7 @@ p {
 .innovations-first-text {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     color: #4A4A4A;
     margin-bottom: 10px;
@@ -766,13 +761,13 @@ p {
     @media screen and (min-width: 1024px) {
             width: 500px;
             font-size: 20px;
-            line-height: 20px;
+            line-height: 22px;
         }
 
     @media screen and (min-width: 1440px) {
             width: 720px;
             font-size: 30px;
-            line-height: 30px;
+            line-height: 32px;
             margin-bottom: 30px;
         }
 }
@@ -780,28 +775,28 @@ p {
 .innovations-second-text {
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 14px;
     color: #2D2D2D;
     margin-bottom: 10px;
 
     @media screen and (min-width: 1024px) {
             font-size: 17px;
-            line-height: 16px;
+            line-height: 19px;
             margin-bottom: 20px;
         }
 
     @media screen and (min-width: 1440px) {
             font-size: 22px;
-            line-height: 22px;
-            margin-bottom: 50px;
+            line-height: 26px;
+            margin-bottom: 30px;
         }
 }
 
 .innovations-second-bold-text {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 14px;
     color: #2D2D2D;
 
@@ -889,13 +884,14 @@ p {
     width: 217px;
     height: 70px;
     border-radius: 16.69px;
-    padding: 14px;
+    padding: 5px;
     background-color: #fff;
     box-shadow: 0px 1.35px 5.74px rgba(0, 0, 0, 0.17);
     z-index: 999;
 
     @media screen and (min-width: 375px) {
             width: 250px;
+            padding: 12px;
         }
 
     @media screen and (min-width: 768px) {
@@ -914,14 +910,14 @@ p {
             width: 600px;
             height: 130px;
             bottom: 25%;
-            padding: 40px;
+            padding: 35px;
         }
 }
 
 .innovations-ask-text {
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     color: #000000;
 
@@ -932,14 +928,14 @@ p {
 
     @media screen and (min-width: 1440px) {
             font-size: 22px;
-            line-height: 22px;
+            line-height: 30px;
         }
 }
 
 .innovations-ask-bold-text {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     color: #000000;
 
@@ -958,9 +954,14 @@ p {
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 199px;
-    height: 258px;
+    width: 169px;
+    height: 219px;
     z-index: 1;
+
+    @media screen and (min-width: 375px) {
+            width: 199px;
+            height: 258px;
+        }
 
     @media screen and (min-width: 768px) {
             left: 100px;
@@ -996,13 +997,13 @@ p {
 .simptoms-section-title {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 22px;
     color: #625F61;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
-    width: 275px;
+    width: 280px;
 
     @media screen and (min-width: 1024px) {
             font-size: 40px;
@@ -1027,8 +1028,8 @@ p {
         }
 
     @media screen and (min-width: 1440px) {
-            padding-left: 100px;
-            padding-right: 100px;
+            padding-left: 40px;
+            padding-right: 40px;
         }
 }
 
@@ -1109,12 +1110,12 @@ p {
 .use-section-title {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 22px;
+    line-height: 24px;
     color: #625F61;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 290px;
     margin-bottom: 40px;
 
     @media screen and (min-width: 1024px) {
@@ -1156,7 +1157,7 @@ p {
 }
 
 .use-list-title {
-    width: 255px;
+    width: 300px;
     height: 42px;
     border-radius: 15.177px;
     box-shadow: 0px 2.3px 9.91px rgba(0, 0, 0, 0.25);
@@ -1166,7 +1167,7 @@ p {
     justify-content: center;
 
     @media screen and (min-width: 1440px) {
-            width: 350px;
+            width: 450px;
             height: 60px;
         }
 }
@@ -1174,13 +1175,13 @@ p {
 .use-list-title-text {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 13px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 16px;
     color: #4B4B4B;
 
     @media screen and (min-width: 1440px) {
-            font-size: 18px;
-            line-height: 18px;
+            font-size: 24px;
+            line-height: 24px;
         }
 }
 
@@ -1204,26 +1205,26 @@ p {
 .use-item-text {
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 16px;
     color: #000000;
 
     @media screen and (min-width: 1440px) {
-            font-size: 18px;
-            line-height: 18px;
+            font-size: 22px;
+            line-height: 22px;
         }
 }
 
 .use-item-bold-text {
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 16px;
     color: #000000;
 
     @media screen and (min-width: 1440px) {
-            font-size: 18px;
-            line-height: 18px;
+            font-size: 22px;
+            line-height: 22px;
         }
 }
 
