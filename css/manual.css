@@ -84,6 +84,12 @@ p {
     }
 }
 
+@media screen and (min-width: 1920px) {
+    .container {
+        max-width: 1920px;
+    }
+}
+
 .container-lt {
     padding-left: 10px;
     padding-right: 10px;
