@@ -52,7 +52,7 @@ p {
     width: 100%;
 }
 
-@media screen and (min-width: 425px) {
+/* @media screen and (min-width: 425px) {
     .container {
         max-width: 425px;
         margin-left: auto;
@@ -82,7 +82,7 @@ p {
     .container {
         max-width: 1920px;
     }
-}
+} */
 
 .header {
     position: fixed;
